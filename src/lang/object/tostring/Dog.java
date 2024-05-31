@@ -12,6 +12,9 @@ public class Dog {
 
     @Override
     public String toString() {
-        return "dogName=" + dogName + "/" + "age=" + age;
+        return "Dog{" +
+                "dogName='" + dogName + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
